@@ -1,0 +1,30 @@
+class Calculator:
+    def __init__(self, num1, num2):
+        self.num1 = num1
+        self.num2 = num2
+
+    def add(self):
+        return self.num1 + self.num2
+
+    def subtract(self):
+        return self.num1 - self.num2
+
+    def multiply(self):
+        return self.num1 * self.num2
+
+    def divide(self):
+        return self.num1 / self.num2
+
+    def modulo(self):
+        return self.num1 % self.num2
+
+    def power(self):
+        return self.num1 ** self.num2
+
+   # Currently not needed
+    def square_root(self):
+        return math.sqrt(self.num1)
+
+   # Currently not needed
+    def cube_root(self):
+        return math.pow(self.num1, 1/3)
